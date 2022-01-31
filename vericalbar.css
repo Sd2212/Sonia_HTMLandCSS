@@ -1,0 +1,142 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: lightsteelblue;
+}
+
+section  {
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(0deg, #c6cad6, #c6cad6);
+}
+
+.bar-graph{
+  position: absolute;
+  top: 30%;
+  left:20%;
+  transform:translateX(-50%,-50%);
+  width: 350px;
+  height: 450px;
+  background: transparent;
+  border:2px solid black; 
+  border-radius: 10%;
+  display: flex;
+}
+
+.bar-graph .box{
+  position: relative;
+  flex: 1;
+  text-align: center;
+}
+
+.bar-graph .box .bar-one{
+  position: absolute;
+  width: 40px;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);}
+
+.bar-graph .box .bar-one::before{
+  content: "";
+  position:absolute;
+  margin: 2px;
+  margin-bottom: 0;
+  background:linear-gradient(0deg, #c6cad6, #c6cad6);
+}
+
+
+.bar-graph .box .bar-two{
+  position: absolute;
+  width: 40px;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bar-graph .box .bar-two::before{
+  content: "";
+  position:absolute;
+  margin: 2px;
+  margin-bottom: 0;
+  background:linear-gradient(0deg, #c6cad6, #c6cad6);}
+
+.bar-graph .box .bar-three{
+  position: absolute;
+  width: 40px;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  }
+
+  .bar-graph .box .bar-three::before{
+    content: "";
+    position:absolute;
+    margin: 2px;
+    margin-bottom: 0;
+    background:linear-gradient(0deg, #c6cad6, #c6cad6);}
+
+    .bar-graph .box .bar-one::after{
+      content: "";
+      position:absolute;
+       top: 0;
+       left: 0;
+       width: 50%;
+       height:100%;
+      background:rgba(255,255,255,0.5);
+    }
+
+    .bar-graph .box .bar-two::before{
+        content: "";
+        position:absolute;
+        top: 0;
+       left: 0;
+       width: 50%;
+       height:100%;
+        background:rgba(255,255,255,0.5);
+    }
+
+   .bar-graph .box .bar-three::before{
+        content: "";
+        position:absolute;
+       top: 0;
+       left: 0;
+       width: 50%;
+       height:100%;
+        background:rgba(255,255,255,0.5);
+    }
+
+    .bar-graph .box .bar-one .bar{
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+
+
+    .bar-graph .box .bar-two .bar{
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+
+
+    .bar-graph .box .bar-three .bar{
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+
+/*#h{
+    top:250px ;
+    bottom: 0;
+    align-items: center;
+   
+}
+ 
+  
