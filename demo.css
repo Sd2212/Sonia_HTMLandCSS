@@ -1,0 +1,58 @@
+
+header{
+     width:auto;
+     height:50px;
+     background-color: rgb(134, 63, 63);
+     text-align: center;
+     font-weight:bold;
+     font-size: 20px;
+     padding-top: 15px;
+     color:lightblue;
+     margin-bottom: -20px;
+     
+ }
+
+ #D{
+     margin-top: 0px;
+    background-color: lightgray;        
+    margin: 0%;  
+    padding: 0%;      
+ }
+
+.dd li a{
+    color:brown;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.dd li{
+    padding: 10px;
+    display: inline-block;
+}
+                            
+.dd li:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+                            
+.dd li:nth-child(2):hover #dd1,
+.dd li:nth-child(3):hover #dd2{
+        display: block;
+} 
+
+#dd1 , #dd2{
+    display: none;
+    width: auto;
+    max-width: 150px;
+    padding: 0%;
+    background-color: rgb(178, 220, 221);
+    position:absolute;
+}
+
+#dd1 li a ,#dd2 li a{
+    color: antiquewhite;
+    font-size: 16px;
+}
+                    
+                            
+
+            
